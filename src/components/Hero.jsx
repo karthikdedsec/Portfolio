@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="section-container">
         <div className="flex gap-[223px] items-center py-10">
           {/* text */}
-          <div className="w-[510px] space-y-9">
+          <div className="w-[510px] space-y-12">
             <h1 className="font-OutFit text-white text-[38px] font-bold leading-[47px]">
               HI, Iam{" "}
               <span className="text-[#E8BF38] text-[43px]">Karthik Raj</span>{" "}
@@ -18,10 +18,10 @@ const Hero = () => {
               web applications.
             </p>
             <div className="flex gap-9">
-              <button className="font-OutFit font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg hover:text-white">
+              <button className="font-OutFit font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
                 View Work
               </button>
-              <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black">
+              <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out">
                 Get in Touch
               </button>
             </div>

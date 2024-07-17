@@ -10,7 +10,10 @@ const Navbar = () => {
           <img src={Logo} alt="logo" />
           <ul className="flex gap-[49px]">
             {links.map((item, i) => (
-              <li className="text-white font-OutFit" key={i}>
+              <li
+                className="text-white font-OutFit cursor-pointer hover:text-[#E8BF38] transition-all duration-300 ease-in-out"
+                key={i}
+              >
                 {item}
               </li>
             ))}
