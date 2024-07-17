@@ -1,0 +1,15 @@
+<svg width="110" height="317" viewBox="0 0 110 317" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_16_342" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-165" y="41" width="229" height="225">
+<ellipse cx="113.487" cy="112.642" rx="113.487" ry="112.642" transform="matrix(0.869353 0.494191 -0.505831 0.862633 -92.4292 0)" fill="white"/>
+</mask>
+<g mask="url(#mask0_16_342)">
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 5.68671 43.8862)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 19.2518 51.5977)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 34.0511 60.0104)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 48.8507 68.4232)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 61.183 75.4335)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 77.2151 84.5473)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 90.7805 92.2589)" fill="black" fill-opacity="0.2"/>
+<rect width="2.83717" height="239.363" transform="matrix(0.869353 0.494191 -0.505831 0.862633 105.58 100.671)" fill="black" fill-opacity="0.2"/>
+</g>
+</svg>

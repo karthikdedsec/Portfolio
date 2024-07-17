@@ -8,9 +8,9 @@ const Navbar = () => {
       <div className="section-container">
         <div className="flex justify-between items-center">
           <img src={Logo} alt="logo" />
-          <ul className="flex">
+          <ul className="flex gap-[49px]">
             {links.map((item, i) => (
-              <li className="text-white" key={i}>
+              <li className="text-white font-OutFit" key={i}>
                 {item}
               </li>
             ))}
