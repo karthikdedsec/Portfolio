@@ -18,10 +18,10 @@ const Hero = () => {
               web applications.
             </p>
             <div className="flex gap-9">
-              <button className="font-OutFit font-medium px-[51px] py-[10px] bg-[#E8BF38] ">
+              <button className="font-OutFit font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg hover:text-white">
                 View Work
               </button>
-              <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white">
+              <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black">
                 Get in Touch
               </button>
             </div>
