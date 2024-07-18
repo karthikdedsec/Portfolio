@@ -1,12 +1,12 @@
-import Heroimg from "../assets/herologos.png";
+import Heroimg from "../assets/coder.svg";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-[#0C1426]">
+    <div className="w-full bg-[#0C1426] pb-24">
       <div className="section-container">
-        <div className="flex gap-[223px] items-center py-10">
+        <div className="flex gap-[250px]  items-center py-10">
           {/* text */}
-          <div className="w-[510px] space-y-12">
+          <div className="w-[600px] space-y-12">
             <h1 className="font-OutFit text-white text-[38px] font-bold leading-[47px]">
               HI, Iam{" "}
               <span className="text-[#E8BF38] text-[43px]">Karthik Raj</span>{" "}
@@ -29,7 +29,7 @@ const Hero = () => {
           {/* Image */}
           <div>
             <img
-              className="w-[520px] h-[620px] object-contain"
+              className="w-[520px] h-[520px] object-contain"
               src={Heroimg}
               alt="Hero Image"
             />
