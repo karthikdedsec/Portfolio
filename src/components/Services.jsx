@@ -4,6 +4,7 @@ import blackDots from "../assets/blackdots.svg";
 import webDev from "../assets/webdevelopment.svg";
 import webDes from "../assets/uiux.svg";
 import wordpress from "../assets/wordpress.svg";
+import lines from "../assets/lines.png";
 
 const Services = () => {
   return (
@@ -13,9 +14,15 @@ const Services = () => {
           Services.
         </p>
         <hr className="w-24 mx-auto border-2 border-[#E8BF38]" />
-        <h1 className="text-center font-OutFit text-4xl font-bold py-6">
+        <h1 className="text-center font-OutFit text-4xl font-bold py-6 relative w-fit mx-auto">
           What I'm Offering
         </h1>
+        {/* absolute component */}
+        <img
+          className="absolute z-50 top-12 right-[549px]"
+          src={lines}
+          alt="lines"
+        />
         {/* content */}
         <div className="flex justify-around flex-wrap pt-20">
           <div className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom">

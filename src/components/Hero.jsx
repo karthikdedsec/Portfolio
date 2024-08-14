@@ -1,18 +1,20 @@
-import Heroimg from "../assets/coder.svg";
+import Heroimg from "../assets/mysection.svg";
+import ArrowLeft from "../assets/arrow1.svg";
+import ArrowRight from "../assets/arrow2.svg";
 
 const Hero = () => {
   return (
     <div className="w-full bg-[#0C1426] pb-24">
       <div className="section-container">
-        <div className="flex gap-[250px]  items-center py-10">
+        <div className="flex gap-5 items-center justify-around py-10">
           {/* text */}
-          <div className="w-[600px] space-y-12">
+          <div className="w-[460px] space-y-12">
             <h1 className="font-OutFit text-white text-[38px] font-bold leading-[47px]">
               HI, Iam{" "}
               <span className="text-[#E8BF38] text-[43px]">Karthik Raj</span>{" "}
               Iam a UI/UX Designer and full stack Developer
             </h1>
-            <p className="text-[rgba(255,255,255,0.70)]">
+            <p className="text-[rgba(255,255,255,0.70)] leading-9">
               Iam a Fullstack Developer specializing in building exceptional
               digital experiences currently iam focused on building responsive
               web applications.
@@ -28,11 +30,34 @@ const Hero = () => {
           </div>
           {/* Image */}
           <div>
+            <div className="">
+              <img
+                className="w-[520px] h-[520px] object-contain relative"
+                src={Heroimg}
+                alt="Hero Image"
+              />
+            </div>
+            <img className="absolute top-40" src={ArrowLeft} alt="arrow" />
             <img
-              className="w-[520px] h-[520px] object-contain"
-              src={Heroimg}
-              alt="Hero Image"
+              className="absolute bottom-60 right-80"
+              src={ArrowRight}
+              alt="arrow"
             />
+          </div>
+          {/* experience */}
+          <div className="flex flex-col space-y-14 text-white">
+            <div>
+              <h1 className="text-2xl font-OutFit font-bold">2+</h1>
+              <p className="text-sm">Years of experience</p>
+            </div>
+            <div>
+              <h1 className="text-2xl font-OutFit font-bold">100%</h1>
+              <p className="text-sm">satisfied results</p>
+            </div>
+            <div>
+              <h1 className="text-2xl font-OutFit font-bold">34+</h1>
+              <p className="text-sm">Projects</p>
+            </div>
           </div>
         </div>
       </div>
