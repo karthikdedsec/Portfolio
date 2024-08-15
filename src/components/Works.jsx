@@ -15,47 +15,155 @@ const Works = () => {
         </h1>
         {/* grid */}
         <div className="grid grid-cols-3 gap-10">
-          <div className="w-[358px] h-[193px] bg-[#D9D9D9] rounded-lg overflow-hidden">
-            <img
-              src={skynet}
-              className="object-contain"
-              alt="skynet group of companies"
-            />
+          <div className="max-w-sm mx-auto">
+            <div className="relative group">
+              <img
+                src="https://via.placeholder.com/400x300" // Replace with your project image
+                alt="Project Thumbnail"
+                className="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out group-hover:blur-sm"
+              />
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                <div className="space-x-4">
+                  <a
+                    href="#view"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    View
+                  </a>
+                  <a
+                    href="#code"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[358px] h-[193px] bg-[#D9D9D9] rounded-lg overflow-hidden">
-            <img
-              src={skynet}
-              className="object-contain"
-              alt="skynet group of companies"
-            />
+          <div className="max-w-sm mx-auto">
+            <div className="relative group">
+              <img
+                src="https://via.placeholder.com/400x300" // Replace with your project image
+                alt="Project Thumbnail"
+                className="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out group-hover:blur-sm"
+              />
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                <div className="space-x-4">
+                  <a
+                    href="#view"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    View
+                  </a>
+                  <a
+                    href="#code"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[358px] h-[193px] bg-[#D9D9D9] rounded-lg overflow-hidden">
-            <img
-              src={skynet}
-              className="object-contain"
-              alt="skynet group of companies"
-            />
+          <div className="max-w-sm mx-auto">
+            <div className="relative group">
+              <img
+                src="https://via.placeholder.com/400x300" // Replace with your project image
+                alt="Project Thumbnail"
+                className="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out group-hover:blur-sm"
+              />
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                <div className="space-x-4">
+                  <a
+                    href="#view"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    View
+                  </a>
+                  <a
+                    href="#code"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[358px] h-[193px] bg-[#D9D9D9] rounded-lg overflow-hidden">
-            <img
-              src={skynet}
-              className="object-contain"
-              alt="skynet group of companies"
-            />
+          <div className="max-w-sm mx-auto">
+            <div className="relative group">
+              <img
+                src="https://via.placeholder.com/400x300" // Replace with your project image
+                alt="Project Thumbnail"
+                className="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out group-hover:blur-sm"
+              />
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                <div className="space-x-4">
+                  <a
+                    href="#view"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    View
+                  </a>
+                  <a
+                    href="#code"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[358px] h-[193px] bg-[#D9D9D9] rounded-lg overflow-hidden">
-            <img
-              src={skynet}
-              className="object-contain"
-              alt="skynet group of companies"
-            />
+          <div className="max-w-sm mx-auto">
+            <div className="relative group">
+              <img
+                src="https://via.placeholder.com/400x300" // Replace with your project image
+                alt="Project Thumbnail"
+                className="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out group-hover:blur-sm"
+              />
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                <div className="space-x-4">
+                  <a
+                    href="#view"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    View
+                  </a>
+                  <a
+                    href="#code"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[358px] h-[193px] bg-[#D9D9D9] rounded-lg overflow-hidden">
-            <img
-              src={skynet}
-              className="object-contain"
-              alt="skynet group of companies"
-            />
+          <div className="max-w-sm mx-auto">
+            <div className="relative group">
+              <img
+                src="https://via.placeholder.com/400x300" // Replace with your project image
+                alt="Project Thumbnail"
+                className="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out group-hover:blur-sm"
+              />
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
+                <div className="space-x-4">
+                  <a
+                    href="#view"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    View
+                  </a>
+                  <a
+                    href="#code"
+                    className="bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
