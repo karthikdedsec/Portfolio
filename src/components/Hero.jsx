@@ -1,4 +1,4 @@
-import Heroimg from "../assets/mysection.svg";
+import Heroimg from "/mysection.svg";
 import ArrowLeft from "../assets/arrow1.svg";
 import ArrowRight from "../assets/arrow2.svg";
 
