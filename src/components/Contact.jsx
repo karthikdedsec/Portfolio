@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="py-32 flex flex-col gap-20">
           <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
             <div className="relative">
-              <h1 className=" w-auto font-OutFit text-4xl font-bold  text-black">
+              <h1 className="w-auto font-OutFit text-4xl font-bold  text-black">
                 Let's Work Together
               </h1>
               {/* absolute component */}
