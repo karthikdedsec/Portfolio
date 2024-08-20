@@ -25,7 +25,7 @@ const Skills = () => {
           Technologies I've Worked With
         </h1>
         {/* content */}
-        <div className="py-20 flex items-center justify-center gap-20 flex-wrap">
+        <div className="py-20 flex justify-center gap-20 flex-wrap">
           <img src={html} alt="html5" />
           <img src={css} alt="css3" />
           <img src={js} alt="javascript" />
