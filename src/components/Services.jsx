@@ -5,6 +5,8 @@ import webDev from "../assets/webdevelopment.svg";
 import webDes from "../assets/uiux.svg";
 import wordpress from "../assets/wordpress.svg";
 import lines from "../assets/lines.png";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const Services = () => {
   return (
@@ -27,7 +29,13 @@ const Services = () => {
         </div>
         {/* content */}
         <div className="flex justify-around gap-9 flex-wrap py-20">
-          <div className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom">
+          <motion.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom"
+          >
             <div className="py-4 flex flex-col space-y-24 justify-center items-center">
               <img className="" src={webDev} alt="web development icon" />
               <h2 className="text-3xl text-white font-OutFit font-medium">
@@ -40,8 +48,14 @@ const Services = () => {
                 <BiRightArrowAlt className="text-white text-lg hover:text-[#E8BF38] transition-all duration-300 ease-in-out" />
               </div>
             </div>
-          </div>
-          <div className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("up", 0.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom"
+          >
             <div className="py-4 flex flex-col space-y-24 justify-center items-center">
               <img className="" src={webDes} alt="web designing icon" />
               <h2 className="text-3xl text-white font-OutFit font-medium">
@@ -54,8 +68,14 @@ const Services = () => {
                 <BiRightArrowAlt className="text-white text-lg hover:text-[#E8BF38] transition-all duration-300 ease-in-out" />
               </div>
             </div>
-          </div>
-          <div className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("up", 0.6)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom"
+          >
             <div className="py-4 flex flex-col space-y-20 justify-center items-center">
               <img className="" src={wordpress} alt="wordpress icon" />
               <h2 className="text-3xl text-white text-center font-OutFit font-medium">
@@ -68,7 +88,7 @@ const Services = () => {
                 <BiRightArrowAlt className="text-white text-lg hover:text-[#E8BF38] transition-all duration-300 ease-in-out" />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
       <img className="absolute left-0 top-0" src={circleleft} alt="circle" />

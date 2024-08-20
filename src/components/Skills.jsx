@@ -12,6 +12,8 @@ import postgres from "../assets/skills/postgres.svg";
 import firebase from "../assets/skills/firebase.svg";
 import figma from "../assets/skills/figma.svg";
 import git from "../assets/skills/github.svg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const Skills = () => {
   return (
@@ -26,18 +28,102 @@ const Skills = () => {
         </h1>
         {/* content */}
         <div className="py-20 flex justify-center gap-20 flex-wrap">
-          <img src={html} alt="html5" />
-          <img src={css} alt="css3" />
-          <img src={js} alt="javascript" />
-          <img src={react} alt="react js" />
-          <img src={node} alt="Node Js" />
-          <img src={mongodb} alt="mongodb" />
-          <img src={tailwind} alt="tailwind css" />
-          <img src={postgres} alt="postgresql" />
-          <img src={wordpress} alt="wordpress" />
-          <img src={firebase} alt="firebase" />
-          <img src={figma} alt="figma" />
-          <img src={git} alt="github" />
+          <motion.img
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={html}
+            alt="html5"
+          />
+          <motion.img
+            variants={fadeIn("left", 0.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={css}
+            alt="css3"
+          />
+          <motion.img
+            variants={fadeIn("left", 0.6)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={js}
+            alt="javascript"
+          />
+          <motion.img
+            variants={fadeIn("left", 0.8)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={react}
+            alt="react js"
+          />
+          <motion.img
+            variants={fadeIn("left", 1.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={node}
+            alt="Node Js"
+          />
+          <motion.img
+            variants={fadeIn("left", 1.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={mongodb}
+            alt="mongodb"
+          />
+          <motion.img
+            variants={fadeIn("left", 1.6)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={tailwind}
+            alt="tailwind css"
+          />
+          <motion.img
+            variants={fadeIn("left", 1.8)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={postgres}
+            alt="postgresql"
+          />
+          <motion.img
+            variants={fadeIn("left", 2.0)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={wordpress}
+            alt="wordpress"
+          />
+          <motion.img
+            variants={fadeIn("left", 2.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={firebase}
+            alt="firebase"
+          />
+          <motion.img
+            variants={fadeIn("left", 2.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={figma}
+            alt="figma"
+          />
+          <motion.img
+            variants={fadeIn("left", 2.6)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            src={git}
+            alt="github"
+          />
         </div>
       </div>
       <img className="absolute bottom-0" src={skillCircle} alt="circle" />

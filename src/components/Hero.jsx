@@ -1,6 +1,8 @@
 import Heroimg from "../assets/mysection.svg";
 import ArrowLeft from "../assets/arrow1.svg";
 import ArrowRight from "../assets/arrow2.svg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const Hero = () => {
   return (
@@ -23,7 +25,13 @@ const Hero = () => {
             </div>
           </div>
           {/* text */}
-          <div className="md:w-[460px] space-y-12">
+          <motion.div
+            variants={fadeIn("right", 0.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            className="md:w-[460px] space-y-12"
+          >
             <h1 className="font-OutFit text-white text-[25px] md:text-[28px] lg:text-[38px] font-bold leading-[47px]">
               HI, Iam{" "}
               <span className="text-[#E8BF38] md:text-[28px] lg:text-[43px]">
@@ -44,9 +52,15 @@ const Hero = () => {
                 Get in Touch
               </button>
             </div>
-          </div>
+          </motion.div>
           {/* Image */}
-          <div className="relative">
+          <motion.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            className="relative"
+          >
             <div className="">
               <img
                 className="w-[520px] h-[520px] object-contain"
@@ -60,10 +74,16 @@ const Hero = () => {
               src={ArrowRight}
               alt="arrow"
             />
-          </div>
+          </motion.div>
 
           {/* experience */}
-          <div className="hidden md:flex flex-col space-y-14 text-white">
+          <motion.div
+            variants={fadeIn("left", 0.6)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
+            className="hidden md:flex flex-col space-y-14 text-white"
+          >
             <div>
               <h1 className="text-2xl font-OutFit font-bold">2+</h1>
               <p className="text-sm">Years of experience</p>
@@ -76,7 +96,7 @@ const Hero = () => {
               <h1 className="text-2xl font-OutFit font-bold">34+</h1>
               <p className="text-sm">Projects</p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

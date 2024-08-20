@@ -19,7 +19,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <HiMenuAlt3 className="md:hidden block text-white" />
+          <HiMenuAlt3 className="md:hidden block text-white text-2xl" />
         </div>
       </div>
     </div>
