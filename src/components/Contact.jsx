@@ -17,13 +17,13 @@ const Contact = () => {
         <hr className="w-24 mx-auto border-[1px] border-[#E8BF38]" />
 
         <div className="py-32 flex flex-col gap-20">
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
             <div className="relative">
               <h1 className=" w-auto font-OutFit text-4xl font-bold  text-black">
                 Let's Work Together
               </h1>
               {/* absolute component */}
-              <div className="absolute w-[39px] h-[39px] z-50 left-80 bottom-6">
+              <div className="absolute w-[39px] h-[39px] z-50 left-80 bottom-6 g">
                 <img
                   className="w-[39px] h-[39px] object-contain"
                   src={lines}
@@ -31,14 +31,14 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <img src={star} alt="a star" />
+            <img src={star} className="hidden md:block" alt="a star" />
             <button className="font-OutFit text-white rounded-full font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
               Let's Talk
             </button>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between md:items-center">
             <div>
-              <ul className="flex gap-[49px]">
+              <ul className="flex flex-col md:flex-row gap-[24px] md:gap-[49px]">
                 {links.map((item, i) => (
                   <li
                     className="text-[rgba(0,0,0,0.40)] font-OutFit cursor-pointer hover:text-[#E8BF38] transition-all duration-300 ease-in-out"
@@ -49,7 +49,7 @@ const Contact = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex items-center gap-6 text-[rgba(0,0,0,0.40)]">
+            <div className="flex flex-col md:flex-row md:items-center gap-6 pt-16 md:pt-0 text-[rgba(0,0,0,0.40)]">
               <p>Ph:+971 50 537 7349</p>
               <p>mail:karthikkap121@gmail.com</p>
             </div>
@@ -58,7 +58,7 @@ const Contact = () => {
 
         <hr className="h-4 text-black w-full" />
 
-        <div className="flex py-10 justify-between text-[rgba(0,0,0,0.40)] font-OutFit">
+        <div className="flex flex-col gap-7 md:flex-row py-10 justify-between text-[rgba(0,0,0,0.40)] font-OutFit">
           <p>KarthikRaj</p>
           <p>© 2024 Karthik Raj. All rights reserved.</p>
           <div className="flex items-center gap-3">

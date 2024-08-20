@@ -1,3 +1,4 @@
+import { HiMenuAlt3 } from "react-icons/hi";
 import Logo from "../assets/Karthik.svg";
 
 const links = ["Home", "Services", "Skills", "Work", "Contact"];
@@ -8,7 +9,7 @@ const Navbar = () => {
       <div className="section-container">
         <div className="flex justify-between items-center">
           <img src={Logo} alt="logo" />
-          <ul className="flex gap-[49px]">
+          <ul className="hidden md:flex gap-[49px]">
             {links.map((item, i) => (
               <li
                 className="text-white font-OutFit cursor-pointer hover:text-[#E8BF38] transition-all duration-300 ease-in-out"
@@ -18,6 +19,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <HiMenuAlt3 className="md:hidden block text-white" />
         </div>
       </div>
     </div>

@@ -21,11 +21,11 @@ const Skills = () => {
           Skills.
         </p>
         <hr className="w-24 mx-auto border-[1px] border-[#E8BF38]" />
-        <h1 className="text-center font-OutFit text-4xl font-bold py-6 text-white">
+        <h1 className="text-center font-OutFit text-3xl md:text-4xl font-bold py-6 text-white">
           Technologies I've Worked With
         </h1>
         {/* content */}
-        <div className="pt-28 flex gap-9 flex-wrap">
+        <div className="py-20 flex items-center justify-center gap-20 flex-wrap">
           <img src={html} alt="html5" />
           <img src={css} alt="css3" />
           <img src={js} alt="javascript" />
@@ -41,11 +41,6 @@ const Skills = () => {
         </div>
       </div>
       <img className="absolute bottom-0" src={skillCircle} alt="circle" />
-      <img
-        className="absolute top-0 right-0"
-        src={skillTriangle}
-        alt="triangles"
-      />
     </div>
   );
 };

@@ -17,7 +17,7 @@ const Works = () => {
           Works.
         </p>
         <hr className="w-24 mx-auto border-[1px] border-[#E8BF38]" />
-        <h1 className="text-center font-OutFit text-4xl font-bold py-6 text-black">
+        <h1 className="text-center font-OutFit text-3xl md:text-4xl font-bold py-6 text-black">
           My Recent Works
         </h1>
         <div className="flex justify-center">
@@ -43,7 +43,10 @@ const Works = () => {
                     >
                       Demo
                     </Link>
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://www.figma.com/design/QzQOsVuoJ8oYWWazP7ZMun/airtac?node-id=0-1&t=Svmy5lxb9jwP5bgI-1"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Design
                     </Link>
                   </div>
@@ -93,7 +96,10 @@ const Works = () => {
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
                       Demo
                     </Link>
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://www.figma.com/design/Xn7ySTTBhi6gPbXiLNv6xT/Restaurant-Website-UI-Template-(Community)?node-id=0-1&t=Z4IMCnQozBiis9wv-1"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Design
                     </Link>
                   </div>

@@ -14,17 +14,19 @@ const Services = () => {
           Services.
         </p>
         <hr className="w-24 mx-auto border-2 border-[#E8BF38]" />
-        <h1 className="text-center font-OutFit text-4xl font-bold py-6 relative w-fit mx-auto">
-          What I'm Offering
-        </h1>
-        {/* absolute component */}
-        <img
-          className="absolute z-50 top-12 right-[549px]"
-          src={lines}
-          alt="lines"
-        />
+        <div className="relative w-80 h-28 mx-auto">
+          <h1 className="text-center font-OutFit text-3xl md:text-4xl font-bold py-6 w-fit mx-auto">
+            What I'm Offering
+          </h1>
+          {/* absolute component */}
+          <img
+            className="absolute z-50 top-0 -right-7"
+            src={lines}
+            alt="lines"
+          />
+        </div>
         {/* content */}
-        <div className="flex justify-around flex-wrap pt-20">
+        <div className="flex justify-around gap-9 flex-wrap py-20">
           <div className="w-[328px] h-[396px] bg-[#0C1426] rounded-xl shadow-custom">
             <div className="py-4 flex flex-col space-y-24 justify-center items-center">
               <img className="" src={webDev} alt="web development icon" />
