@@ -13,12 +13,12 @@ const Experience = () => {
         <div className="flex flex-col gap-3 justify-center items-center mt-5 pt-24">
           {/* experience */}
           <div className="flex flex-col md:w-[860px] gap-14">
-            <div className="relative">
-              <h1 className=" w-auto font-OutFit text-3xl md:text-4xl font-bold md:text-center  text-white">
+            <div className="relative w-auto md:mx-auto">
+              <h1 className=" w-auto font-OutFit text-3xl md:text-4xl font-bold  text-white">
                 My Experience
               </h1>
               {/* absolute component */}
-              <div className="absolute z-50 right-48 sm:right-96 md:right-64 bottom-6">
+              <div className="absolute z-50 right-36 md:-right-8 bottom-6">
                 <img src={lines} alt="lines" />
               </div>
             </div>
