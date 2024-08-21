@@ -10,7 +10,7 @@ import { fadeIn } from "../variants";
 
 const Services = () => {
   return (
-    <div className="min-h-screen relative overflow-hidden">
+    <div id="services" className="min-h-screen relative overflow-hidden">
       <div className="section-container">
         <p className="text-center pt-5 font-OutFit font-medium text-lg text-[#E8BF38]">
           Services.

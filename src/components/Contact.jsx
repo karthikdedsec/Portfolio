@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const links = ["Home", "Services", "Skills", "Work", "Contact"];
 const Contact = () => {
   return (
-    <div className="w-full">
+    <div id="contact" className="w-full">
       <div className="section-container">
         <p className="text-center pt-5 font-OutFit font-medium text-lg text-[#E8BF38]">
           Contact.

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
-    <div className="w-full min-h-screen relative overflow-hidden">
+    <div id="work" className="w-full min-h-screen relative overflow-hidden">
       <div className="section-container">
         <p className="text-center pt-5 font-OutFit font-medium text-lg text-[#E8BF38]">
           Works.
