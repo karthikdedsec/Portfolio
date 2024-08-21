@@ -10,18 +10,18 @@ const Hero = () => {
       <div className="section-container">
         <div className="flex md:flex-row flex-col-reverse gap-5 items-center justify-around py-10">
           {/* experience on mobile screen */}
-          <div className="md:hidden flex flex-row justify-between pt-7 w-full text-white">
-            <div className="w-24">
+          <div className="md:hidden flex flex-row justify-between  pt-16 w-full text-white">
+            <div className="w-24 text-center">
               <h1 className="text-2xl font-OutFit font-bold">2+</h1>
-              <p className="text-sm">Years of experience</p>
+              <p className="text-xs">Years of experience</p>
             </div>
-            <div className="w-24">
+            <div className="w-24 text-center">
               <h1 className="text-2xl font-OutFit font-bold">100%</h1>
-              <p className="text-sm">satisfied results</p>
+              <p className="text-xs">satisfied results</p>
             </div>
-            <div className="w-24">
+            <div className="w-24 text-center">
               <h1 className="text-2xl font-OutFit font-bold">34+</h1>
-              <p className="text-sm">Projects</p>
+              <p className="text-xs">Projects</p>
             </div>
           </div>
           {/* text */}
