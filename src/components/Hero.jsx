@@ -68,7 +68,7 @@ const Hero = () => {
               <span className="text-[#E8BF38] md:text-[28px] lg:text-[43px]">
                 Karthik Raj
               </span>{" "}
-              Iam a UI/UX Designer and full stack Developer
+              Iam a full stack Developer and UI/UX Designer
             </h1>
             <p className="text-[rgba(255,255,255,0.70)] text-sm md:text-base leading-9">
               Iam a Fullstack Developer specializing in building exceptional
