@@ -18,7 +18,7 @@ const Experience = () => {
                 My Experience
               </h1>
               {/* absolute component */}
-              <div className="absolute z-50 right-36 md:-right-8 bottom-6">
+              <div className="absolute z-50 right-24 sm:right-36 md:-right-8 bottom-6">
                 <img src={lines} alt="lines" />
               </div>
             </div>
