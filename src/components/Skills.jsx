@@ -12,6 +12,7 @@ import postgres from "../assets/skills/postgres.svg";
 import firebase from "../assets/skills/firebase.svg";
 import figma from "../assets/skills/figma.svg";
 import git from "../assets/skills/github.svg";
+import redux from "../assets/skills/redux.svg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -124,6 +125,14 @@ const Skills = () => {
               viewport={{ once: true, amount: 0.3 }}
               src={git}
               alt="github"
+            />
+            <motion.img
+              variants={fadeIn("left", 2.8)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={redux}
+              alt="redux"
             />
           </div>
         </div>
