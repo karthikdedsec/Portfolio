@@ -1,5 +1,6 @@
 import RoundArrow from "../assets/roundarrow.svg";
 import lines from "../assets/lines.png";
+import Resume from "../assets/resume/KarthikRajResume.pdf";
 
 const Experience = () => {
   return (
@@ -29,7 +30,9 @@ const Experience = () => {
             </p>
             <div className="md:flex">
               <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out w-52">
-                Download CV
+                <a download href={Resume}>
+                  Download CV
+                </a>
               </button>
             </div>
             <div className="md:ml-[2px]">
