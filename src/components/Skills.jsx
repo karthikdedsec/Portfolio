@@ -27,103 +27,105 @@ const Skills = () => {
           Technologies I've Worked With
         </h1>
         {/* content */}
-        <div className="py-20 flex justify-center gap-20 flex-wrap">
-          <motion.img
-            variants={fadeIn("left", 0.2)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={html}
-            alt="html5"
-          />
-          <motion.img
-            variants={fadeIn("left", 0.4)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={css}
-            alt="css3"
-          />
-          <motion.img
-            variants={fadeIn("left", 0.6)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={js}
-            alt="javascript"
-          />
-          <motion.img
-            variants={fadeIn("left", 0.8)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={react}
-            alt="react js"
-          />
-          <motion.img
-            variants={fadeIn("left", 1.2)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={node}
-            alt="Node Js"
-          />
-          <motion.img
-            variants={fadeIn("left", 1.4)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={mongodb}
-            alt="mongodb"
-          />
-          <motion.img
-            variants={fadeIn("left", 1.6)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={tailwind}
-            alt="tailwind css"
-          />
-          <motion.img
-            variants={fadeIn("left", 1.8)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={postgres}
-            alt="postgresql"
-          />
-          <motion.img
-            variants={fadeIn("left", 2.0)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={wordpress}
-            alt="wordpress"
-          />
-          <motion.img
-            variants={fadeIn("left", 2.2)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={firebase}
-            alt="firebase"
-          />
-          <motion.img
-            variants={fadeIn("left", 2.4)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={figma}
-            alt="figma"
-          />
-          <motion.img
-            variants={fadeIn("left", 2.6)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
-            src={git}
-            alt="github"
-          />
+        <div className="py-20 flex justify-center">
+          <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-10">
+            <motion.img
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={html}
+              alt="html5"
+            />
+            <motion.img
+              variants={fadeIn("left", 0.4)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={css}
+              alt="css3"
+            />
+            <motion.img
+              variants={fadeIn("left", 0.6)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={js}
+              alt="javascript"
+            />
+            <motion.img
+              variants={fadeIn("left", 0.8)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={react}
+              alt="react js"
+            />
+            <motion.img
+              variants={fadeIn("left", 1.2)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={node}
+              alt="Node Js"
+            />
+            <motion.img
+              variants={fadeIn("left", 1.4)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={mongodb}
+              alt="mongodb"
+            />
+            <motion.img
+              variants={fadeIn("left", 1.6)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={tailwind}
+              alt="tailwind css"
+            />
+            <motion.img
+              variants={fadeIn("left", 1.8)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={postgres}
+              alt="postgresql"
+            />
+            <motion.img
+              variants={fadeIn("left", 2.0)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={wordpress}
+              alt="wordpress"
+            />
+            <motion.img
+              variants={fadeIn("left", 2.2)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={firebase}
+              alt="firebase"
+            />
+            <motion.img
+              variants={fadeIn("left", 2.4)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={figma}
+              alt="figma"
+            />
+            <motion.img
+              variants={fadeIn("left", 2.6)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={git}
+              alt="github"
+            />
+          </div>
         </div>
       </div>
       <img className="absolute bottom-0" src={skillCircle} alt="circle" />

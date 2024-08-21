@@ -41,12 +41,6 @@ const Services = () => {
               <h2 className="text-3xl text-white font-OutFit font-medium">
                 Web Development
               </h2>
-              <div className="flex items-center gap-1">
-                <p className="text-[#fff] font-OutFit cursor-pointer hover:text-[#E8BF38] transition-all duration-300 ease-in-out">
-                  Read more
-                </p>
-                <BiRightArrowAlt className="text-white text-lg hover:text-[#E8BF38] transition-all duration-300 ease-in-out" />
-              </div>
             </div>
           </motion.div>
           <motion.div
@@ -61,12 +55,12 @@ const Services = () => {
               <h2 className="text-3xl text-white font-OutFit font-medium">
                 Web Designing
               </h2>
-              <div className="flex items-center gap-1">
+              {/* <div className="flex items-center gap-1">
                 <p className="text-[#fff] font-OutFit cursor-pointer hover:text-[#E8BF38] transition-all duration-300 ease-in-out">
                   Read more
                 </p>
                 <BiRightArrowAlt className="text-white text-lg hover:text-[#E8BF38] transition-all duration-300 ease-in-out" />
-              </div>
+              </div> */}
             </div>
           </motion.div>
           <motion.div
@@ -81,12 +75,12 @@ const Services = () => {
               <h2 className="text-3xl text-white text-center font-OutFit font-medium">
                 Wordpress Development
               </h2>
-              <div className="flex items-center gap-1 ">
+              {/* <div className="flex items-center gap-1 ">
                 <p className="text-[#fff] font-OutFit cursor-pointer hover:text-[#E8BF38] transition-all duration-300 ease-in-out">
                   Read more
                 </p>
                 <BiRightArrowAlt className="text-white text-lg hover:text-[#E8BF38] transition-all duration-300 ease-in-out" />
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
