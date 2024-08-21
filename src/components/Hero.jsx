@@ -76,12 +76,16 @@ const Hero = () => {
               web applications.
             </p>
             <div className="flex gap-9">
-              <button className="font-OutFit text-sm md:text-base font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
-                <a href="#work">View Work</a>
-              </button>
-              <button className="font-OutFit text-sm md:text-base font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out">
-                <a href="#contact">Get in Touch</a>
-              </button>
+              <a href="#work">
+                <button className="font-OutFit text-sm md:text-base font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
+                  View Work
+                </button>
+              </a>
+              <a href="#contact">
+                <button className="font-OutFit text-sm md:text-base font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out">
+                  Get in Touch
+                </button>
+              </a>
             </div>
           </motion.div>
           {/* Image */}
