@@ -32,9 +32,11 @@ const Contact = () => {
               </div>
             </div>
             <img src={star} className="hidden md:block" alt="a star" />
-            <button className="font-OutFit text-white rounded-full font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
-              Let's Talk
-            </button>
+            <a href="https://wa.me/971505377349" target="_blank">
+              <button className="font-OutFit text-white rounded-full font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
+                Let's Talk
+              </button>
+            </a>
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center">
             <div>
