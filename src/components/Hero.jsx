@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const { ref, inView } = useInView({
@@ -75,11 +76,11 @@ const Hero = () => {
               web applications.
             </p>
             <div className="flex gap-9">
-              <button className="font-OutFit font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
-                View Work
+              <button className="font-OutFit text-sm md:text-base font-medium px-[51px] py-[10px] bg-[#E8BF38] hover:shadow-lg">
+                <Link to="#work">View Work</Link>
               </button>
-              <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out">
-                Get in Touch
+              <button className="font-OutFit text-sm md:text-base font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out">
+                <Link to="#contact">Get in Touch</Link>
               </button>
             </div>
           </motion.div>
