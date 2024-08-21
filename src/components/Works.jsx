@@ -31,7 +31,7 @@ const Works = () => {
                     Airtac Aviation Website
                   </h4>
                   <p className="text-center text-[rgba(255,255,255,0.70)]">
-                    aviation website created using Reactjs tailwind css emailjs
+                    aviation website created using Reactjs, tailwind, emailjs
                   </p>
                   <div className="flex  gap-2">
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
@@ -61,14 +61,17 @@ const Works = () => {
                     E-commerce application
                   </h4>
                   <p className="text-center text-[rgba(255,255,255,0.70)]">
-                    E-commerce application created using react mongodb expressjs
-                    and nodejs
+                    E-commerce application created using react, mongodb,
+                    expressjs and nodejs
                   </p>
                   <div className="flex  gap-2">
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
                       Code
                     </Link>
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://uat.greens-intl.ae/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Demo
                     </Link>
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
@@ -90,10 +93,16 @@ const Works = () => {
                     mongoDB, Expressjs and Nodejs
                   </p>
                   <div className="flex  gap-2">
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://github.com/karthikdedsec/Foodi-ecom"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Code
                     </Link>
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://foodi-ecom.onrender.com/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Demo
                     </Link>
                     <Link
@@ -111,16 +120,23 @@ const Works = () => {
               <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
                 <div className="flex p-4 justify-between h-full flex-col items-center">
                   <h4 className="text-white font-OutFit text-2xl">
-                    Airtac Aviation Website
+                    SkynetGroup Website
                   </h4>
                   <p className="text-center text-[rgba(255,255,255,0.70)]">
-                    aviation website created using Reactjs tailwind css emailjs
+                    Skynet Group Of companies website created using Reactjs
+                    tailwind css emailjs
                   </p>
                   <div className="flex  gap-2">
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://github.com/karthikdedsec/skynet"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Code
                     </Link>
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://www.skynetgroup.ae/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Demo
                     </Link>
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
@@ -135,16 +151,19 @@ const Works = () => {
               <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
                 <div className="flex p-4 justify-between h-full flex-col items-center">
                   <h4 className="text-white font-OutFit text-2xl">
-                    Airtac Aviation Website
+                    Visa Consultancy Website
                   </h4>
                   <p className="text-center text-[rgba(255,255,255,0.70)]">
-                    aviation website created using Reactjs tailwind css emailjs
+                    Fullstack visa and immigration consultancy website
                   </p>
                   <div className="flex  gap-2">
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
                       Code
                     </Link>
-                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                    <Link
+                      to="https://hermeslegal.ae/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
                       Demo
                     </Link>
                     <Link className="border-2 border-[#E8BF38] text-white p-2">
@@ -159,10 +178,11 @@ const Works = () => {
               <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
                 <div className="flex p-4 justify-between h-full flex-col items-center">
                   <h4 className="text-white font-OutFit text-2xl">
-                    Airtac Aviation Website
+                    Shopit Ecommerce application
                   </h4>
                   <p className="text-center text-[rgba(255,255,255,0.70)]">
-                    aviation website created using Reactjs tailwind css emailjs
+                    e-commerce website created using React, MongoDB, Expressjs,
+                    Nodejs and Redux
                   </p>
                   <div className="flex  gap-2">
                     <Link className="border-2 border-[#E8BF38] text-white p-2">

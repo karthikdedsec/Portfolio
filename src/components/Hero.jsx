@@ -3,24 +3,54 @@ import ArrowLeft from "../assets/arrow1.svg";
 import ArrowRight from "../assets/arrow2.svg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { useInView } from "react-intersection-observer";
+import CountUp from "react-countup";
 
 const Hero = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
   return (
-    <div className="w-full bg-[#0C1426] pb-1 md:pb-24">
+    <div ref={ref} className="w-full bg-[#0C1426] pb-1 md:pb-24">
       <div className="section-container">
         <div className="flex md:flex-row flex-col-reverse gap-5 items-center justify-around py-10">
           {/* experience on mobile screen */}
           <div className="md:hidden flex flex-row justify-between  pt-16 w-full text-white">
-            <div className="w-24 text-center">
-              <h1 className="text-2xl font-OutFit font-bold">2+</h1>
+            <div className="w-24 flex flex-col items-center text-center">
+              <div className="flex gap-1 items-center">
+                <CountUp
+                  end={2}
+                  duration={5}
+                  className="text-2xl font-OutFit font-bold"
+                  start={inView ? 0 : 2}
+                />
+                <p className="text-2xl font-OutFit font-bold">+</p>
+              </div>
               <p className="text-xs">Years of experience</p>
             </div>
-            <div className="w-24 text-center">
-              <h1 className="text-2xl font-OutFit font-bold">100%</h1>
-              <p className="text-xs">satisfied results</p>
+            <div className="w-24 flex flex-col items-center text-center">
+              <div className="flex gap-1 items-center">
+                <CountUp
+                  end={100}
+                  duration={5}
+                  className="text-2xl font-OutFit font-bold"
+                  start={inView ? 0 : 100}
+                />
+                <p className="text-2xl font-OutFit font-bold">%</p>
+              </div>
+              <p className="text-xs">Satisfied Clients</p>
             </div>
-            <div className="w-24 text-center">
-              <h1 className="text-2xl font-OutFit font-bold">34+</h1>
+            <div className="w-24 flex flex-col items-center text-center">
+              <div className="flex gap-1 items-center">
+                <CountUp
+                  end={34}
+                  duration={5}
+                  className="text-2xl font-OutFit font-bold"
+                  start={inView ? 0 : 34}
+                />
+                <p className="text-2xl font-OutFit font-bold">+</p>
+              </div>
               <p className="text-xs">Projects</p>
             </div>
           </div>
@@ -84,17 +114,41 @@ const Hero = () => {
             viewport={{ once: true, amount: 0.3 }}
             className="hidden md:flex flex-col space-y-14 text-white"
           >
-            <div>
-              <h1 className="text-2xl font-OutFit font-bold">2+</h1>
-              <p className="text-sm">Years of experience</p>
+            <div className="w-24 flex flex-col items-center text-center">
+              <div className="flex gap-1 items-center">
+                <CountUp
+                  end={2}
+                  duration={5}
+                  className="text-2xl font-OutFit font-bold"
+                  start={inView ? 0 : 2}
+                />
+                <p className="text-2xl font-OutFit font-bold">+</p>
+              </div>
+              <p className="text-xs">Years of experience</p>
             </div>
-            <div>
-              <h1 className="text-2xl font-OutFit font-bold">100%</h1>
-              <p className="text-sm">satisfied results</p>
+            <div className="w-24 flex flex-col items-center text-center">
+              <div className="flex gap-1 items-center">
+                <CountUp
+                  end={100}
+                  duration={5}
+                  className="text-2xl font-OutFit font-bold"
+                  start={inView ? 0 : 100}
+                />
+                <p className="text-2xl font-OutFit font-bold">%</p>
+              </div>
+              <p className="text-xs">Satisfied Clients</p>
             </div>
-            <div>
-              <h1 className="text-2xl font-OutFit font-bold">34+</h1>
-              <p className="text-sm">Projects</p>
+            <div className="w-24 flex flex-col items-center text-center">
+              <div className="flex gap-1 items-center">
+                <CountUp
+                  end={34}
+                  duration={5}
+                  className="text-2xl font-OutFit font-bold"
+                  start={inView ? 0 : 34}
+                />
+                <p className="text-2xl font-OutFit font-bold">+</p>
+              </div>
+              <p className="text-xs">Projects</p>
             </div>
           </motion.div>
         </div>

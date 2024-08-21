@@ -4,9 +4,10 @@ import Logo from "../assets/Karthik.svg";
 
 const links = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
-  { name: "Solutions", link: "/solutions" },
-  { name: "Contact", link: "/contact" },
+  { name: "Services", link: "#services" },
+  { name: "Skills", link: "#skills" },
+  { name: "Work", link: "#work" },
+  { name: "Contact", link: "#contact" },
 ];
 const Sidebar = ({ setActive, active }) => {
   return (
@@ -26,9 +27,12 @@ const Sidebar = ({ setActive, active }) => {
           <ul className="flex text-white flex-col gap-11 pt-16">
             {links.map((item, i) => (
               <li onClick={() => setActive(false)} key={i}>
-                <Link className="text-2xl font-medium" to={item.link}>
+                <a
+                  className="text-2xl font-medium font-OutFit"
+                  href={item.link}
+                >
                   {item.name}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
