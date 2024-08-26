@@ -11,31 +11,31 @@ const Experience = () => {
         </p>
         <hr className="w-24 mx-auto border-[1px] border-[#E8BF38]" />
         {/* content */}
-        <div className="flex flex-col lg:flex-row gap-3 justify-center mt-5 pt-24">
+        <div className="flex flex-col gap-3 justify-center mt-5 pt-0">
           {/* experience */}
-          <div className="flex flex-1 flex-col md:w-[860px] gap-14 md:pt-12">
+          <div className="flex flex-1 flex-col w-auto gap-14 md:pt-12 mx-auto">
             <div className="relative w-auto">
-              <h1 className=" w-auto font-OutFit text-3xl md:text-4xl font-bold  text-white">
+              <h1 className=" w-auto font-OutFit text-3xl md:text-4xl md:text-center font-bold  text-white">
                 My Experience
               </h1>
               {/* absolute component */}
-              <div className="absolute z-50 right-24 sm:right-36 md:right-0 lg:right-80 bottom-6">
+              <div className="absolute z-50 right-48 sm:right-80 md:right-40 lg:right-40 bottom-6">
                 <img src={lines} alt="lines" />
               </div>
             </div>
-            <p className="text-[rgba(255,255,255,0.70)] text-sm md:text-base leading-9">
+            <p className="text-[rgba(255,255,255,0.70)] text-sm md:text-base md:w-[680px] leading-9">
               Web developer with expertise in the MERN stack and PostgreSQL.
               Skilled in building responsive, user-friendly websites and
               managing projects from concept to deployment.
             </p>
-            <div className="md:flex">
-              <button className="font-OutFit font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out w-52">
+            <div className="md:flex justify-center items-center">
+              <button className="font-OutFit  font-medium px-[51px] py-[10px] border-2 border-[#E8BF38] text-white hover:bg-[#E8BF38] hover:text-black transform transition-all duration-500 ease-in-out w-52">
                 <a download href={Resume}>
                   Download CV
                 </a>
               </button>
             </div>
-            <div className="md:ml-[2px]">
+            <div className="md:ml-[2px] md:hidden">
               <img
                 className="w-[96px] h-[131px] object-contain"
                 src={RoundArrow}
@@ -44,7 +44,7 @@ const Experience = () => {
             </div>
           </div>
           {/* right */}
-          <div className="flex flex-1 gap-5 py-8">
+          <div className="flex flex-1 gap-5 py-8 md:w-[780px] md:mx-auto">
             {/* <div className="h-[444px] flex flex-col justify-between font-OutFit text-white text-nowrap text-base md:text-lg">
               <p>2024 - Now</p>
               <p className="pt-11">2023 - 2024</p>
