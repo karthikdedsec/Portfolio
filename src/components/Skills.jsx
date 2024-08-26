@@ -1,5 +1,4 @@
 import skillCircle from "../assets/skillscircle.png";
-import skillTriangle from "../assets/skilltriangles.png";
 import html from "../assets/skills/html.svg";
 import css from "../assets/skills/css.svg";
 import js from "../assets/skills/js.svg";

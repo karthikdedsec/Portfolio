@@ -124,7 +124,7 @@ const Hero = () => {
                 <CountUp
                   end={2}
                   duration={5}
-                  className="text-2xl font-OutFit font-bold"
+                  className="text-4xl font-OutFit font-bold"
                   start={inView ? 0 : 2}
                 />
                 <p className="text-2xl font-OutFit font-bold">+</p>
@@ -136,7 +136,7 @@ const Hero = () => {
                 <CountUp
                   end={100}
                   duration={5}
-                  className="text-2xl font-OutFit font-bold"
+                  className="text-4xl font-OutFit font-bold"
                   start={inView ? 0 : 100}
                 />
                 <p className="text-2xl font-OutFit font-bold">%</p>
@@ -148,7 +148,7 @@ const Hero = () => {
                 <CountUp
                   end={34}
                   duration={5}
-                  className="text-2xl font-OutFit font-bold"
+                  className="text-4xl font-OutFit font-bold"
                   start={inView ? 0 : 34}
                 />
                 <p className="text-2xl font-OutFit font-bold">+</p>
