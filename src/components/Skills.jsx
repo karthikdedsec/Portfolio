@@ -10,6 +10,7 @@ import tailwind from "../assets/skills/tailwind.svg";
 import postgres from "../assets/skills/postgres.svg";
 import firebase from "../assets/skills/firebase.svg";
 import figma from "../assets/skills/figma.svg";
+import shopify from "../assets/skills/shopify.svg";
 import git from "../assets/skills/github.svg";
 import redux from "../assets/skills/redux.svg";
 import { motion } from "framer-motion";
@@ -132,6 +133,14 @@ const Skills = () => {
               viewport={{ once: true, amount: 0.3 }}
               src={redux}
               alt="redux"
+            />
+            <motion.img
+              variants={fadeIn("left", 2.8)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.3 }}
+              src={shopify}
+              alt="shopify"
             />
           </div>
         </div>

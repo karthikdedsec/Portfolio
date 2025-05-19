@@ -2,10 +2,13 @@ import workcircle from "../assets/workcircle.png";
 import workdots from "../assets/workdots.png";
 import airtac from "../assets/works/airtac.jpg";
 import greens from "../assets/works/greens.png";
-import foodi from "../assets/works/foodi.png";
+import ilai from "../assets/works/ilai.png";
 import skynet from "../assets/works/skynet.png";
 import hermes from "../assets/works/hermeslegal.png";
 import shopit from "../assets/works/shopit.png";
+import h360 from "../assets/works/h360.png";
+import akleel from "../assets/works/akleel.png";
+import kyma from "../assets/works/kyma.png";
 
 import { Link } from "react-router-dom";
 
@@ -23,6 +26,37 @@ const Works = () => {
         <div className="flex justify-center">
           {/* grid */}
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-9">
+            <div className="w-80 h-52 relative">
+              <img src={h360} className="object-cover w-80 h-52" alt="" />
+              <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
+                <div className="flex p-4 justify-between h-full flex-col items-center">
+                  <h4 className="text-white font-OutFit text-2xl">
+                    Healthchecks360
+                  </h4>
+                  <p className="text-center text-[rgba(255,255,255,0.70)]">
+                    Healthchecks360 a completely custom healthcare application
+                    created with html , css , js , sass and php for backend
+                  </p>
+                  <div className="flex  gap-2">
+                    <Link className="border-2 border-[#E8BF38] text-white p-2">
+                      Code
+                    </Link>
+                    <Link
+                      to="https://www.healthchecks360.com/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Demo
+                    </Link>
+                    <Link
+                      to="https://www.figma.com/design/m8KqC9gFSDVdX3SwQVupKu/Healthcare-360--Copy-?node-id=254-2&t=JRXU6vMoM0lsStqp-1"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Design
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="w-80 h-52 relative">
               <img src={airtac} className="object-cover w-80 h-52" alt="" />
               <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
@@ -69,7 +103,7 @@ const Works = () => {
                       Code
                     </Link>
                     <Link
-                      to="https://uat.greens-intl.ae/"
+                      to="https://www.greensintl.com/"
                       className="border-2 border-[#E8BF38] text-white p-2"
                     >
                       Demo
@@ -82,31 +116,93 @@ const Works = () => {
               </div>
             </div>
             <div className="w-80 h-52 relative">
-              <img src={foodi} className="object-cover w-80 h-52" alt="" />
+              <img src={akleel} className="object-cover w-80 h-52" alt="" />
               <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
                 <div className="flex p-4 justify-between h-full flex-col items-center">
-                  <h4 className="text-white font-OutFit text-2xl">
-                    food ordering application
-                  </h4>
+                  <h4 className="text-white font-OutFit text-2xl">Al Akleel</h4>
                   <p className="text-center text-[rgba(255,255,255,0.70)]">
-                    e-commerce food ordering application created using React,
-                    mongoDB, Expressjs and Nodejs
+                    An Wordpress application created using elementor page
+                    builder and block editor.
                   </p>
                   <div className="flex  gap-2">
                     <Link
-                      to="https://github.com/karthikdedsec/Foodi-ecom"
+                      to=""
                       className="border-2 border-[#E8BF38] text-white p-2"
                     >
                       Code
                     </Link>
                     <Link
-                      to="https://foodi-ecom.onrender.com/"
+                      to="https://alakleel.com/"
                       className="border-2 border-[#E8BF38] text-white p-2"
                     >
                       Demo
                     </Link>
                     <Link
-                      to="https://www.figma.com/design/Xn7ySTTBhi6gPbXiLNv6xT/Restaurant-Website-UI-Template-(Community)?node-id=0-1&t=Z4IMCnQozBiis9wv-1"
+                      to=""
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Design
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-80 h-52 relative">
+              <img src={ilai} className="object-cover w-80 h-52" alt="" />
+              <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
+                <div className="flex p-4 justify-between h-full flex-col items-center">
+                  <h4 className="text-white font-OutFit text-2xl">
+                    Ilai Sarai
+                  </h4>
+                  <p className="text-center text-[rgba(255,255,255,0.70)]">
+                    Completely custom build shopify ecommerce platform
+                  </p>
+                  <div className="flex  gap-2">
+                    <Link
+                      to=""
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Code
+                    </Link>
+                    <Link
+                      to="https://ilaisarai.com/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Demo
+                    </Link>
+                    <Link
+                      to=""
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Design
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-80 h-52 relative">
+              <img src={kyma} className="object-cover w-80 h-52" alt="" />
+              <div className="absolute w-80 h-52 bg-[#0C1426] opacity-0 hover:opacity-100 top-0 transition-all duration-300 ease-in-out">
+                <div className="flex p-4 justify-between h-full flex-col items-center">
+                  <h4 className="text-white font-OutFit text-2xl">My Kyma</h4>
+                  <p className="text-center text-[rgba(255,255,255,0.70)]">
+                    Customized shopify ecommerce platform
+                  </p>
+                  <div className="flex  gap-2">
+                    <Link
+                      to=""
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Code
+                    </Link>
+                    <Link
+                      to="https://mykyma.com/"
+                      className="border-2 border-[#E8BF38] text-white p-2"
+                    >
+                      Demo
+                    </Link>
+                    <Link
+                      to=""
                       className="border-2 border-[#E8BF38] text-white p-2"
                     >
                       Design

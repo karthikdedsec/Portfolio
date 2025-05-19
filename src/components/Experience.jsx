@@ -127,7 +127,7 @@ const Experience = () => {
                     2024 - Now
                   </time>
                   <div className="text-lg font-semibold text-white font-OutFit">
-                    Full Stack Developer at Link and Crosslink Technologies
+                    Frontend Developer at Technoid FZE
                   </div>
                   <span className="text-[rgba(255,255,255,0.70)] text-sm">
                     developed two robust applications using React. The first is
